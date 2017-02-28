@@ -19,4 +19,3 @@ Return the filenames for the SURVEY images
 \examples{
 get_survey_filenames()
 }
-
