@@ -5,10 +5,8 @@
 #' \code{modalities = "SURVEY"} so it cannot be specified
 #' @return Indicator if the data is downloaded.
 #' 
-#' @examples
-#' download_survey_data()
 #' @export
-#' @importFrom kirby21.base download_kirby21_data
+#' @importFrom kirby21.base download_kirby21_data all_modalities
 download_survey_data =  function(...) {  
   x = kirby21.base::download_kirby21_data(modality = "SURVEY", ...)
   return(x)

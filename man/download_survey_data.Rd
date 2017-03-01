@@ -16,6 +16,3 @@ Indicator if the data is downloaded.
 \description{
 Download the files for the SURVEY images
 }
-\examples{
-download_survey_data()
-}
